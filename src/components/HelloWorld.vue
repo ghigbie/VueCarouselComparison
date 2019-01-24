@@ -28,20 +28,37 @@
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>
     <h2>Vue Carousel</h2>
-    <VueCarousel :data="['Slide 1', 'Slide 2', 'Slide 3']"/>
+    <VueCarousel :data="[slide1, slide2, slide3]"/>
+    <OwlCarousel>
+      <OwlCaroustl :title="Owl Slide 1" />
+      <OwlCaroustl :title="Owl Slide 1" />
+      <OwlCaroustl :title="Owl Slide 1" />
+    <OwlCarousel>
+    <h2></h2>
   </div>
 </template>
 
 <script>
 import VueCarousel from '@chenfengyuan/vue-carousel';
+import OwlCarousel from 'vue-owl-carousel';
+import OwlSldie from '@components/OwlSlide';
 
 export default {
   name: 'HelloWorld',
   components: {
-    VueCarousel
+    VueCarousel,
+    OwlCarousel,
+    OwlSlide
   },
   props: {
     msg: String
+  },
+  data(){
+    return {
+      slide1: `<h3>Slide 1</h3>`,
+      slide2: `<h3>Slide 2</h3>`,
+      slide3: `<h3>Slide 3</h3>`,
+    }
   }
 }
 </script>
