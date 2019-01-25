@@ -1,5 +1,7 @@
 # carousel-test
 
+This VueJS app is used to make comparisons among carousels created in VueJS.
+
 ## Project setup
 ```
 npm install
