@@ -4,6 +4,7 @@
     <VueCarouselHolder />
     <OwlCarouselHolder />
     <VueFluxHolder />
+    <VueCarouselFashionHolder />
   </div>
 </template>
 
@@ -11,16 +12,18 @@
 import VueCarouselHolder from './VueCarousel/VueCarouselHolder';
 import OwlCarouselHolder from './OwlCarousel/OwlCarouselHolder';
 import VueFluxHolder from './VueFlux/VueFluxHolder';
+import VueCarouselFashionHolder from './VueCarouselFasion/VueCarouselFasionHolder';
 
 export default {
-  name: 'ABase',
+  name: 'CarouselTest',
   props: {
         msg: String
   },
   components: {
     VueCarouselHolder,
     OwlCarouselHolder,
-    VueFluxHolder
+    VueFluxHolder,
+    VueCarouselFashionHolder
   },
 }
 </script>

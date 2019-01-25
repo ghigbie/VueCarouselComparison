@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <ABase msg="Welcome to Your Vue.js App for Testing Prebuilt Carousels"/>
+    <CarouselTest msg="Welcome to Your Vue.js App for Testing Prebuilt Carousels"/>
   </div>
 </template>
 
 <script>
-import ABase from './components/ABase.vue'
+import CarouselTest from './components/CarouselTest.vue'
 
 export default {
   name: 'app',
   components: {
-    ABase
+    CarouselTest
   }
 }
 </script>

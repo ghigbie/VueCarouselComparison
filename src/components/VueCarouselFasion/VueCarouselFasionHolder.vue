@@ -1,14 +1,23 @@
 <template>
     <div class="vue-carousel-fashion">
-
+        <Carousel>
+            <SlideContent />
+            <SlideContent />
+            <SlideContent />
+            <SlideContent />
+        </Carousel>
     </div>
 </template>
 
 <script>
+import Carousel from 'vue-carousel';
+import SlideContent from './SlideContent';
+
 export default {
-    name: 'VueCarouselFashion',
+    name: 'VueCarouselFashionHolder',
     components: {
-        
+        Carousel,
+        SlideContent
     }
     
 }
