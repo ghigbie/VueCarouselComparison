@@ -10,6 +10,7 @@
   "dependencies": {
     "@chenfengyuan/vue-carousel": "^0.1.1",
     "vue": "^2.5.22",
+    "vue-flux": "^5.1.9",
     "vue-owl-carousel": "^2.0.3"
   },
   "devDependencies": {
