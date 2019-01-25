@@ -2,20 +2,22 @@
     <div>
         <h2>Owl Carousel</h2>
         <p>You can render components withtin this carousel</p>
-        <OwlCarousel>
-            <OwlSlide :title=title1 />
-            <OwlSlide :title=title2 />
-            <OwlSlide :title=title3 />
-            <OwlSlide :title=title4 />
-            <OwlSlide :title=title5 />
-            <OwlSlide :title=title6 />
-            <OwlSlide :title=title7 />
-            <OwlSlide :title=title8 />
-            <OwlSlide :title=title9 />
-            <OwlSlide :title=title10 />
-            <OwlSlide :title=title11 />
-            <OwlSlide :title=title12 />
-        </OwlCarousel>
+        <div class="owl-container">
+            <OwlCarousel> 
+                <OwlSlide :title=title1 />
+                <OwlSlide :title=title2 />
+                <OwlSlide :title=title3 />
+                <OwlSlide :title=title4 />
+                <OwlSlide :title=title5 />
+                <OwlSlide :title=title6 />
+                <OwlSlide :title=title7 />
+                <OwlSlide :title=title8 />
+                <OwlSlide :title=title9 />
+                <OwlSlide :title=title10 />
+                <OwlSlide :title=title11 />
+                <OwlSlide :title=title12 />
+            </OwlCarousel>
+        </div>
     </div>
 </template>
 
@@ -48,3 +50,9 @@ export default {
 
 }
 </script>
+
+<style scoped>
+.owl-container{
+    padding: 0 0 0 5%;
+}
+</style>

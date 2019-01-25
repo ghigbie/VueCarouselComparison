@@ -1,13 +1,14 @@
 <template>
     <div class="vue-flux-holder">
         <h2>Vue Flux Carousel</h2>
+        <p>There are options for configuration here...needs more exploration."</p>
         <vue-flux :options="fluxOptions"
                   :images="fluxImages"
                   :transitions="fluxTransitions"
                   ref="slider">
-            <!-- <flux-pagination slot="pagination"></flux-pagination> -->
+            <flux-pagination slot="pagination"></flux-pagination>
         </vue-flux>
-    <button @click="$refs.slider.showImage('prev')">PREV</button>
+    <button @click="$refs.slider.showImage('previous')">PREV</button>
     <button @click="$refs.slider.showImage('next')">NEXT</button>
     </div>
 </template>
