@@ -29,11 +29,15 @@
     </ul>
     <h2>Vue Carousel</h2>
     <VueCarousel :data="[slide1, slide2, slide3]"/>
+    <h2>Owl Carousel</h2>
     <OwlCarousel>
-      <OwlCaroustl :title="Owl Slide 1" />
-      <OwlCaroustl :title="Owl Slide 1" />
-      <OwlCaroustl :title="Owl Slide 1" />
-    <OwlCarousel>
+      <OwlSlide :title=title1 />
+      <OwlSlide :title=title2 />
+      <OwlSlide :title=title3 />
+      <OwlSlide :title=title4 />
+      <OwlSlide :title=title5 />
+      <OwlSlide :title=title6 />
+    </OwlCarousel>
     <h2></h2>
   </div>
 </template>
@@ -41,10 +45,10 @@
 <script>
 import VueCarousel from '@chenfengyuan/vue-carousel';
 import OwlCarousel from 'vue-owl-carousel';
-import OwlSldie from '@components/OwlSlide';
+import OwlSlide from './OwlSlide';
 
 export default {
-  name: 'HelloWorld',
+  name: 'ABase',
   components: {
     VueCarousel,
     OwlCarousel,
@@ -58,6 +62,12 @@ export default {
       slide1: `<h3>Slide 1</h3>`,
       slide2: `<h3>Slide 2</h3>`,
       slide3: `<h3>Slide 3</h3>`,
+      title1:  "Owl Slide 1",
+      title2:  "Owl Slide 2",
+      title3:  "Owl Slide 3",
+      title4:  "Owl Slide 4",
+      title5:  "Owl Slide 5",
+      title6:  "Owl Slide 6",
     }
   }
 }
