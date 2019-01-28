@@ -1,6 +1,9 @@
 <template>
     <div class="vue-carousel-fashion">
-        <Carousel>
+    <h2>Vue Carousel Fashion</h2>
+        <Carousel :navigationEnabled="false">
+            <SlideContent />
+            <SlideContent />
             <SlideContent />
             <SlideContent />
             <SlideContent />
@@ -10,7 +13,7 @@
 </template>
 
 <script>
-import Carousel from 'vue-carousel';
+import { Carousel, Slide } from 'vue-carousel';
 import SlideContent from './SlideContent';
 
 export default {

@@ -1,6 +1,6 @@
 <template>
     <div class="vue-carousel-holder">
-        <h2>Vue Carousel Holder</h2>
+        <h2>Vue Carousel</h2>
         <p>As this is currently configured, the slides must be passed in as strings. No compononents can be passed</p>
         <VueCarousel :data="[slide1, slide2, slide3]"/>
     </div>
@@ -9,6 +9,8 @@
 <script>
 import VueCarousel from '@chenfengyuan/vue-carousel';
 import VueCarouselSlide from './VueCarouselSlide';
+import VueCarouselSlide2 from './VueCarouselSlide2';
+import VueCarouselSlide3 from './VueCarouselSlide3';
 
 export default {
     name: 'VueCarouselHolder',

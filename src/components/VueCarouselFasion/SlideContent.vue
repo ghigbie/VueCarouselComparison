@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import Slide from 'vue-carousel';
+import  { Slide } from 'vue-carousel';
 export default {
     name: 'SlideContent',
     components: {

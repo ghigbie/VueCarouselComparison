@@ -1,7 +1,7 @@
 <template>
     <div>
         <h2>Owl Carousel</h2>
-        <p>You can render components withtin this carousel</p>
+        <p>You can render components within this carousel</p>
         <div class="owl-container">
             <OwlCarousel> 
                 <OwlSlide :title=title1 />

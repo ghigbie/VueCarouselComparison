@@ -25,7 +25,7 @@ export default {
     data(){
         return {
             fluxOptions: {
-                autoplay: true
+                autoplay: false
             },
             fluxImages: [
                 'https://amp.businessinsider.com/images/549489a1ecad042f60718e6b-750-500.jpg',
