@@ -3,10 +3,9 @@
     <transition-group
       class='carousel'
       tag="div">
-      <div
-        v-for="slide in slides" 
-        class='slide'
-        :key="slide.id">
+      <div v-for="slide in slides" 
+           class='slide'
+           :key="slide.id">
         <ScratchSlide :title="slide.title"
                       :img="slide.img"
                       :altText="slide.altText"
@@ -96,7 +95,7 @@ export default {
   align-items: center;
   overflow: hidden;
   
-  width: 24em;
+  width: 1200px;
   min-height: 25em;
 }
 .slide {
