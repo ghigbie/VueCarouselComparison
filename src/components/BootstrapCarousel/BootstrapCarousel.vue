@@ -9,7 +9,7 @@
                         <div class="carousel-item" 
                              v-for="(banner,index) in banners" 
                              :key="index"
-                             :class="{ active: idx==0 }">
+                             :class="{ active: index==0 }">
                             <p>adfafaf</p>
                             <img :src="banner" alt="" class="img-fluid">
                         </div>
@@ -27,7 +27,7 @@ export default {
     name: 'BootstrapCarousel',
     data () {
     return {
-      banners:["//placehold.it/1200x600","//placehold.it/1200x600/333/fff","//placehold.it/1200x600/cc2222"]
+      banners:["https://via.placeholder.com/150", "https://via.placeholder.com/150", "https://via.placeholder.com/150" ],
     }
   }
 }
