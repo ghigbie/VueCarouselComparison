@@ -6,7 +6,10 @@
     <VueFluxHolder />
     <VueCarouselFashionHolder />
     <ScratchCarouselHolder />
-    <ImageSliderHolder />
+    <!-- <ImageSliderHolder /> -->
+    <br>
+    <br>
+    <BootstrapCarouselHolder />
   </div>
 </template>
 
@@ -16,7 +19,8 @@ import OwlCarouselHolder from './OwlCarousel/OwlCarouselHolder';
 import VueFluxHolder from './VueFlux/VueFluxHolder';
 import VueCarouselFashionHolder from './VueCarouselFasion/VueCarouselFasionHolder';
 import ScratchCarouselHolder from './Scratch/ScratchCarouselHolder';
-import ImageSliderHolder from './ImageSlider/ImageSliderHolder';
+//import ImageSliderHolder from './ImageSlider/ImageSliderHolder';
+import BootstrapCarouselHolder from './BootstrapCarousel/BootstrapCarouselHolder';
 
 export default {
   name: 'CarouselTest',
@@ -29,7 +33,8 @@ export default {
     VueFluxHolder,
     VueCarouselFashionHolder,
     ScratchCarouselHolder,
-    ImageSliderHolder
+    //ImageSliderHolder,
+    BootstrapCarouselHolder
   },
 }
 </script>
