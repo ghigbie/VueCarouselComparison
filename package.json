@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@chenfengyuan/vue-carousel": "^0.1.1",
+    "hooper": "0.0.7",
     "vue": "^2.5.22",
     "vue-carousel": "^0.17.0",
     "vue-flux": "^5.1.9",

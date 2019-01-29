@@ -6,28 +6,29 @@
             <Slide>
                 <h3>Yo mamma is so stupid...</h3>
                 <p> she thought a pineapple was an apple made out of pine."</p>
-            <Slide>
+            </Slide>
             <Slide>
                 <h3>Yo mamma is so small...</h3>
-                <p> she tried to hang glide on a dorrito."</p>
-            <Slide>
+                <p> she tried to hang glide on a dorito."</p>
+            </Slide>
             <Slide>
                 <h3>Yo mamma is so ugly...</h3>
                 <p>she thought Jaba the Hut was pretty."</p>
-            <Slide>
-
+            </Slide>
+            <Navigation slot="hooper-addons"></Navigation>
         </Hooper>
     </div>
 </template>
 
 <script>
-import { Hooper, Slide } from 'hooper';
+import { Hooper, Slide, Navigation } from 'hooper';
 
 export default {
-    name: 'HooperarouselHolder',
+    name: 'HooperCarouselHolder',
     components: {
         Hooper,
-        Slide
+        Slide,
+        Navigation
     }
 }
 </script>
