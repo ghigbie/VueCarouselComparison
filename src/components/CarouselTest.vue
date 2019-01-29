@@ -6,6 +6,7 @@
     <VueFluxHolder />
     <VueCarouselFashionHolder />
     <ScratchCarouselHolder />
+    <ImageSliderHolder />
   </div>
 </template>
 
@@ -15,6 +16,8 @@ import OwlCarouselHolder from './OwlCarousel/OwlCarouselHolder';
 import VueFluxHolder from './VueFlux/VueFluxHolder';
 import VueCarouselFashionHolder from './VueCarouselFasion/VueCarouselFasionHolder';
 import ScratchCarouselHolder from './Scratch/ScratchCarouselHolder';
+import ImageSliderHolder from './ImageSlider/ImageSliderHolder';
+
 export default {
   name: 'CarouselTest',
   props: {
@@ -25,7 +28,8 @@ export default {
     OwlCarouselHolder,
     VueFluxHolder,
     VueCarouselFashionHolder,
-    ScratchCarouselHolder
+    ScratchCarouselHolder,
+    ImageSliderHolder
   },
 }
 </script>
