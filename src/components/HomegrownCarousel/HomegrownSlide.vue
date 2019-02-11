@@ -31,7 +31,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .carousel-slide{
     margin: auto 12px auto 12px;
     min-height: 460px;

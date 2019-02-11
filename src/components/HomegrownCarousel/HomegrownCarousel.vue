@@ -68,7 +68,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .carousel-view {
   position: relative;
   display: flex;
