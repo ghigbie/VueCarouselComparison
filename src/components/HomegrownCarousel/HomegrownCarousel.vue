@@ -115,7 +115,7 @@ export default {
   display: inline-block;
   position: absolute;
   z-index: 3;
-  width: 675px;//519px; //-- this was what was previously used, keep for backup for now
+  width: 675px;
   height: 460px;
 }
 
