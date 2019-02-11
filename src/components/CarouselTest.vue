@@ -12,6 +12,7 @@
     <BootstrapCarouselHolder />
     <br>
     <HooperCarouselHolder />
+    <HomegrownCarousel />
   </div>
 </template>
 
@@ -24,6 +25,8 @@ import ScratchCarouselHolder from './Scratch/ScratchCarouselHolder';
 //import ImageSliderHolder from './ImageSlider/ImageSliderHolder';
 import BootstrapCarouselHolder from './BootstrapCarousel/BootstrapCarouselHolder';
 import HooperCarouselHolder from './HooperCarousel/HooperCarouselHolder';
+import HomegrownCarousel from './HomegrownCarousel/HomegrownCarousel';
+
 
 export default {
   name: 'CarouselTest',
@@ -38,7 +41,8 @@ export default {
     ScratchCarouselHolder,
     //ImageSliderHolder,
     BootstrapCarouselHolder,
-    HooperCarouselHolder
+    HooperCarouselHolder,
+    HomegrownCarousel
   },
 }
 </script>
