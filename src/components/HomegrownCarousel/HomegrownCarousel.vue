@@ -123,22 +123,22 @@ export default {
 .gradient-left{
   background-image: linear-gradient(
     to left,
-    rgba(246, 246, 246, 0),
-    rgba(246, 246, 246, .7) 12%,
-    rgba(246, 246, 246, .8) 15%,
-    rgba(246, 246, 246, .9) 18%,
-    rgba(246, 246, 246, 1) 20%);
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, .7) 12%,
+    rgba(255, 255, 255, .8) 15%,
+    rgba(255, 255, 255, .9) 18%,
+    rgba(255, 255, 255, 1) 20%);
   left: -20%;
 }
 
 .gradient-right{
   background-image: linear-gradient(
     to right,
-    rgba(246, 246, 246, 0),
-    rgba(246, 246, 246, .7) 12%,
-    rgba(246, 246, 246, .8) 15%,
-    rgba(246, 246, 246, .9) 18%,
-    rgba(246, 246, 246, 1) 20%);
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, .7) 12%,
+    rgba(255, 255, 255, .8) 15%,
+    rgba(255, 255, 255, .9) 18%,
+    rgba(255, 255, 255, 1) 20%);
   right: -20%;
 }
 
