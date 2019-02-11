@@ -1,5 +1,6 @@
 <template>
     <div class='carousel-view'>
+      <h1>Homegrown Carousel </h1>  
       <div class="carousel-title">{{ carouselTitle }}</div>
       <transition-group class='carousel'
                         tag="div">
@@ -25,7 +26,7 @@
 </template>
 
 <script>
-import HomegrownSlide from "./CarouselHomegrownSlide";
+import HomegrownSlide from "./HomegrownSlide";
 import slides from "./_carouselData";
 
 export default {
