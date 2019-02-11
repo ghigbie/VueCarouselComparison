@@ -9,7 +9,7 @@
           <HomegrownSlide :title="slide.title"
                           :img="slide.img"
                           :altText="slide.altText"
-                          :caption="slide.description"
+                          :caption="slide.description" 
                           :description="slide.description"/>
         </div>
       </transition-group>
@@ -102,13 +102,13 @@ export default {
 .previous-left{
   border-left: 5px solid #c4bfbc;
   transform: rotate(-45deg);
-  left: 196px; //86px; -- was the previous value
+  left: 196px; 
   z-index: 5;
 }
 .next-right{
   border-right: 5px solid #c4bfbc;
   transform: rotate(45deg);
-  right: 196px; //86px; -- was the previous value
+  right: 196px; 
   z-index: 5;
 }
 .gradient{
